@@ -191,14 +191,14 @@ p {
 
 /* Contact */
 .contact-left p{
-    margin-top: 30px;
+    margin-top: 10px;
     color: #fff;
 }
 .contact-left{
     flex-basis: 35%;
 }
 .contact-right{
-    flex-basis: 60%;
+    flex-basis: 50%;
 }
 .contact-right h1 span{
     color: #ff004f;
@@ -223,22 +223,23 @@ p {
     color: #ff004f;
     transform: translateY(-5px);
 }
-.btn{
-    display: block;
-    margin: 50px auto;
-    width: fit-content;
-    border: 1px solid #ff004f;
-    padding: 14px 50px;
-    border-radius: 6px;
-    text-decoration: none;
-    color: #fff;
+.btn {
+display: inline-block;
+margin: 10px;
+width: fit-content;
+border: 1px solid #ff004f;
+padding: 10px 10px;
+border-radius: 5px;
+text-decoration: none;
+color: #fff;
 }
-.btn:hover{
-    background: #ff004f;
+
+.btn:hover {
+background: #ff004f;
 }
-.btn.btn2{
-    display: inline-block;
-    background: #ff004f;
+
+.btn.btn2 {
+background: #ff004f;
 }
 .contact-right form{
     width: 100%;
@@ -249,7 +250,7 @@ form input, form textarea{
     outline: none;
     background: #F2F2F2;
     padding: 15px;
-    margin: 15px 0;
+    margin: 10px 0;
     color: #ff004f;
     font-size: 18px;
     border-radius: 6px;
